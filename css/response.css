@@ -72,9 +72,10 @@
   .es-temp > *:nth-child(1) {
     margin-top: 0 !important;
   }
-}
-@media only screen and (max-width: 480px) {
-  .main .row {
+  .main-container{
+    margin-top: 100px;
+  }
+  .main-row {
     flex-direction: column-reverse;
   }
   .main img {
@@ -96,7 +97,7 @@
     width: 150px;
   }
 }
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 530px) {
   .main img {
     height: 200px !important;
   }
