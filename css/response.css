@@ -1,0 +1,204 @@
+/*max-width 600px - phone*/
+/*max-width 900px - tab-port*/
+/*max-width 1200px - tab-land*/
+/*max-width +1200px - laptop*/
+/*width +1800px - big screen*/
+@media (max-width: 30em) {
+    body {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 50%;
+    }
+}
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 47%;
+    }
+}
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 65%;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .main button {
+        font-size: 11px;
+    }
+    .main-content--txt1,
+    .services-header,
+    .tasks-txt1,
+    .team-txt1,
+    .tryFree-txt1 {
+        font-size: 40px;
+    }
+    .space-sections {
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .main-content--txt1,
+    .services-header,
+    .tasks-txt1,
+    .team-txt1,
+    .tryFree-txt1 {
+        font-size: 25px;
+    }
+    .main button {
+        margin-top: 10px;
+        width: initial;
+    }
+    .tryFree-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .tryFree button {
+        margin-top: 10px;
+        width: initial;
+        padding: 10px 20px !important;
+    }
+    .tryFree-txt2 {
+        margin: 10px 0 20px 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .header {
+        z-index: 1;
+    }
+    .main-img {
+        position: absolute;
+        top: -75px;
+        left: 0;
+    }
+    .services-header {
+        text-align: center;
+    }
+    .services .row .col-md-4:nth-child(2) {
+        margin-top: 0;
+        margin: 20px 0;
+    }
+    .services .row .col-md-4:nth-child(3) {
+        margin-top: 0;
+    }
+    .services-txt1 {
+        font-size: initial;
+        font-weight: initial;
+    }
+    .tasks button {
+        font-size: 13px;
+        font-weight: 100;
+        padding: 10px 20px !important;
+    }
+
+    .img-lg {
+        width: 100px;
+        height: 100px;
+    }
+    .img-md {
+        width: 75px;
+        height: 75px;
+    }
+    .img-sm {
+        width: 50px;
+        height: 50px;
+    }
+
+    .c-img1 {
+        top: 10%;
+        left: 0;
+    }
+    .c-img2 {
+        top: 33%;
+        left: 20%;
+    }
+    .c-img3 {
+        bottom: 0;
+        left: 50px;
+    }
+    .c-img4 {
+        top: 10%;
+        right: 0;
+    }
+    .c-img5 {
+        top: 60%;
+        right: 20%;
+    }
+    .c-img6 {
+        bottom: 0;
+        right: 50px;
+    }
+    .space-sections {
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 768px) {
+}
+/* phones under 600px */
+@media only screen and (max-width: 687px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 575px) {
+    .main-content--txt1,
+    .services-header,
+    .tasks-txt1,
+    .team-txt1,
+    .tryFree-txt1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main-content--txt2 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .services-content {
+        padding: 20px;
+    }
+    .count-services {
+        font-weight: 700;
+        font-size: 75px;
+    }
+    .space-sections {
+        margin-bottom: 25px;
+    }
+    .es-temp > *:nth-child(7) {
+        padding-bottom: 70px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .main-content--txt1,
+    .services-header,
+    .tasks-txt1,
+    .team-txt1,
+    .tryFree-txt1 {
+        font-size: 20px;
+    }
+    .services .row .col-md-4:nth-child(2) {
+        margin-top: 0;
+        margin: 10px 0;
+    }
+    .space-sections {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .count-services {
+        font-size: 65px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .space-sections {
+        margin-bottom: 5px;
+    }
+}
