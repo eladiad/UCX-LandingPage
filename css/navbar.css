@@ -1,0 +1,161 @@
+/* nav icon design */
+.nav-navbar-res {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-duration: 0.15s;
+    -o-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-property: opacity, -webkit-filter;
+    transition-property: opacity, -webkit-filter;
+    -o-transition-property: opacity, filter;
+    transition-property: opacity, filter;
+    transition-property: opacity, filter, -webkit-filter;
+    text-transform: none;
+    color: inherit;
+    background-color: transparent;
+    display: none;
+    overflow: visible;
+    height: 100%;
+    width: 55px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    -o-border-image: initial;
+    border-image: initial;
+}
+.nav-navbar-resContent {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    -webkit-transform: translateX(100vw);
+    -ms-transform: translateX(100vw);
+    transform: translateX(100vw);
+    visibility: hidden;
+    display: none;
+    outline: 0px;
+    -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.nav-navbar-resContent.active {
+    -webkit-transform: translateX(0vw);
+    -ms-transform: translateX(0vw);
+    transform: translateX(0vw);
+    visibility: visible;
+}
+.nav-res-sideNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: var(--bg-job-btn);
+    width: 50vw;
+    height: 100%;
+    position: relative;
+    right: 0px;
+    margin-left: auto;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    -webkit-box-shadow: rgba(2, 12, 27, 0.7) -10px 0px 30px -15px;
+    box-shadow: rgba(2, 12, 27, 0.7) -10px 0px 30px -15px;
+    padding: 50px;
+}
+.nav-res-sideNav nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(204, 214, 246);
+}
+.nav-res-sideNav nav ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.nav-res-sideNav nav ul li a {
+    padding: 25px 10px;
+}
+.nav-res-sideNav nav ul li a:hover {
+    color: rgba(100, 255, 207, 1);
+}
+.Xicon {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    -o-transition: transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    stroke: var(--prime);
+}
+.XiconRotate.active {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.line {
+    fill: none;
+    -webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    -o-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #fff;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke: var(--prime);
+}
+.Xicon .top {
+    stroke-dasharray: 40 121;
+    stroke: var(--prime);
+}
+.Xicon .bottom {
+    stroke-dasharray: 40 121;
+    stroke: var(--prime);
+}
+.Xicon.active .top {
+    stroke-dashoffset: -68px;
+    stroke: var(--primeDark) !important;
+}
+.Xicon.active .bottom {
+    stroke-dashoffset: -68px;
+    stroke: var(--primeDark) !important;
+}
+
+.Xicon.active .line {
+    stroke: var(--primeDark) !important;
+}
